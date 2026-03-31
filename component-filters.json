@@ -6,6 +6,26 @@
     ]
   },
   {
+    "id": "text",
+    "rte": {
+      "toolbar": {
+        "insert": [
+          "link",
+          "unlink",
+          "image"
+        ]
+      },
+      "actions": {
+        "image": {
+          "wrapInPicture": true
+        }
+      }
+    },
+    "components": [
+      "text"
+    ]
+  },
+  {
     "id": "section",
     "components": [
       "text",
@@ -15,7 +35,8 @@
       "hero",
       "cards",
       "columns",
-      "fragment"
+      "fragment",
+      "breadcrumb"
     ]
   },
   {

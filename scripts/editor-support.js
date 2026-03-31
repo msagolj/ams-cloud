@@ -11,7 +11,11 @@ import {
 import { decorateRichtext } from './editor-support-rte.js';
 import { decorateMain } from './scripts.js';
 
+let promiseChanges$ = Promise.resolve();
+
 async function applyChanges(event) {
+  await promiseChanges$;
+  
   // redecorate default content and blocks on patches (in the properties rail)
   const { detail } = event;
 
@@ -34,6 +38,7 @@ async function applyChanges(event) {
   if (element) {
     if (element.matches('main')) {
       const newMain = parsedUpdate.querySelector(`[data-aue-resource="${resource}"]`);
+      if (!newMain) return false;
       newMain.style.display = 'none';
       element.insertAdjacentElement('afterend', newMain);
       decorateMain(newMain);
@@ -103,7 +108,8 @@ function attachEventListners(main) {
     'aue:content-copy',
   ].forEach((eventType) => main?.addEventListener(eventType, async (event) => {
     event.stopPropagation();
-    const applied = await applyChanges(event);
+    promiseChanges$ = applyChanges(event);
+    const applied = await promiseChanges$;
     if (!applied) window.location.reload();
   }));
 }

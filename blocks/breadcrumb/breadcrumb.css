@@ -1,0 +1,27 @@
+.breadcrumb nav {
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.breadcrumb .breadcrumb-links {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.breadcrumb .separator {
+  color: #999;
+}
+
+.breadcrumb a {
+  color: #035fe6;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb span:last-child {
+  color: #333;
+}

@@ -142,6 +142,75 @@
     ]
   },
   {
+    "id": "breadcrumb",
+    "fields": [
+      {
+        "component": "boolean",
+        "name": "enablePageTitle",
+        "value": true,
+        "label": "Enable Page Title",
+        "description": "Show the page title in the breadcrumb.",
+        "valueType": "boolean"
+      },
+      {
+        "component": "boolean",
+        "name": "showHidden",
+        "value": false,
+        "label": "Show hidden navigation items",
+        "description": "Show navigation items hidden by the page properties.",
+        "valueType": "boolean"
+      },
+      {
+        "component": "boolean",
+        "name": "hideCurrent",
+        "value": true,
+        "label": "Hide current page",
+        "description": "Don't display the current page in the breadcrumb.",
+        "valueType": "boolean"
+      },
+      {
+        "component": "boolean",
+        "name": "disableShadowing",
+        "value": false,
+        "label": "Disable shadowing",
+        "description": "For redirecting page: show original pages instead of target.",
+        "valueType": "boolean"
+      },
+      {
+        "component": "boolean",
+        "name": "showFullPath",
+        "value": true,
+        "label": "Show full path",
+        "description": "Display the full navigation path.",
+        "valueType": "boolean"
+      },
+      {
+        "component": "boolean",
+        "name": "enableSchema",
+        "value": false,
+        "label": "Enable Schema.org markup",
+        "description": "Add structured data for SEO.",
+        "valueType": "boolean"
+      },
+      {
+        "component": "boolean",
+        "name": "collapsible",
+        "value": true,
+        "label": "Collapsible on mobile",
+        "description": "Collapse breadcrumb on small screens.",
+        "valueType": "boolean"
+      },
+      {
+        "component": "boolean",
+        "name": "showIcons",
+        "value": false,
+        "label": "Show icons",
+        "description": "Display icons next to breadcrumb items.",
+        "valueType": "boolean"
+      }
+    ]
+  },
+  {
     "id": "card",
     "fields": [
       {
