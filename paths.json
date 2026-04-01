@@ -7,6 +7,7 @@
     "/content/ams-cloud/test-page:/über-uns"
   ],
   "includes": [
-    "/content/ams-cloud/"
+    "/content/ams-cloud/",
+    "/content/dam/ams-cloud/"
   ]
 }
