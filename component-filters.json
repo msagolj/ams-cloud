@@ -20,7 +20,11 @@
           "wrapInPicture": true
         }
       }
-    }
+    },
+    "components": [
+      "text",
+      "hero"
+    ]
   },
   {
     "id": "section",
