@@ -12,9 +12,7 @@
               "page": {
                 "resourceType": "core/franklin/components/text/v1/text",
                 "template": {},
-                "filters": [
-                  "text"
-                ]
+                "filter": "text"
               }
             }
           }
@@ -170,9 +168,7 @@
                 "template": {
                   "name": "Hero",
                   "model": "hero",
-                  "filters": [
-                    "text"
-                  ]
+                  "filter": "text"
                 }
               }
             }
