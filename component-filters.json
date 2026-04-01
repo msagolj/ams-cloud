@@ -6,7 +6,7 @@
     ]
   },
   {
-    "id": "text",
+    "id": "imagefilter",
     "rte": {
       "toolbar": {
         "insert": [
@@ -20,11 +20,7 @@
           "wrapInPicture": true
         }
       }
-    },
-    "components": [
-      "text",
-      "hero"
-    ]
+    }
   },
   {
     "id": "section",

@@ -6,7 +6,7 @@
     ]
   },
   {
-    "id": "text",
+    "id": "imagefilter",
     "rte": {
       "toolbar": {
         "insert": ["link", "unlink", "image"]
@@ -16,8 +16,7 @@
           "wrapInPicture": true
         }
       }
-    },
-    "components": ["text","hero"]
+    }
   },
   {
     "...": "./_section.json#/filters"

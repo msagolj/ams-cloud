@@ -13,7 +13,7 @@
                 "resourceType": "core/franklin/components/text/v1/text",
                 "template": {},
                 "filters": [
-                  "text"
+                  "imagefilter"
                 ]
               }
             }
@@ -171,7 +171,7 @@
                   "name": "Hero",
                   "model": "hero",
                   "filters": [
-                    "text"
+                    "imagefilter"
                   ]
                 }
               }
