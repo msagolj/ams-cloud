@@ -16,8 +16,7 @@
           "wrapInPicture": true
         }
       }
-    },
-    "components": ["text","hero"]
+    }
   },
   {
     "...": "./_section.json#/filters"
