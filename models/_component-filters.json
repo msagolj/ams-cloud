@@ -6,7 +6,7 @@
     ]
   },
   {
-    "id": "imagefilter",
+    "id": "text",
     "rte": {
       "toolbar": {
         "insert": ["link", "unlink", "image"]

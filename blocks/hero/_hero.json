@@ -10,7 +10,7 @@
             "template": {
               "name": "Hero",
               "model": "hero",
-              "filters": ["imagefilter"]
+              "filters": ["text"]
             }
           }
         }
