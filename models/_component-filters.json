@@ -17,7 +17,7 @@
         }
       }
     },
-    "components": ["text"]
+    "components": ["text","hero"]
   },
   {
     "...": "./_section.json#/filters"

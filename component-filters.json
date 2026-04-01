@@ -22,7 +22,8 @@
       }
     },
     "components": [
-      "text"
+      "text",
+      "hero"
     ]
   },
   {
