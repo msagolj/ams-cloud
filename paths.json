@@ -3,7 +3,8 @@
     "/content/ams-cloud/:/",
     "/content/ams-cloud/configuration:/.helix/config.json",
     "/content/ams-cloud/headers:/.helix/headers.json",
-    "/content/ams-cloud/config:/config.json"
+    "/content/ams-cloud/config:/config.json",
+    "/content/ams-cloud/test-page:/über-uns"
   ],
   "includes": [
     "/content/ams-cloud/"
